@@ -1,7 +1,6 @@
+# Main Class, notice the static methods used to interact with the data 
+# Notice there is no "state" assiend to the library other than the name used for placeholder
 class Library:
-    def __init__(self, name):
-        self.name = name
-
     @staticmethod
     def getBookData(bookData, maxQuantity=None):
         if not maxQuantity:
